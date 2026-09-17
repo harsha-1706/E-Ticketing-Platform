@@ -1,0 +1,29 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Helper function
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    match /users/{userId} {
+      allow read: if isAuthenticated();
+      allow write: if isOwner(userId);
+    }
+
+    match /bookings/{bookingId} {
+      allow read: if isAuthenticated() && (resource.data.userId == request.auth.uid || resource.data.userId == 'guest');
+      allow create: if isAuthenticated() && (request.resource.data.userId == request.auth.uid || request.resource.data.userId == 'guest');
+      allow update, delete: if isAuthenticated() && (resource.data.userId == request.auth.uid || resource.data.userId == 'guest');
+    }
+    
+    // Connection test rule
+    match /test/{docId} {
+      allow read, write: if true;
+    }
+  }
+}
