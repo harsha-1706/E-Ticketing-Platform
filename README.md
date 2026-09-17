@@ -1,10 +1,17 @@
-https://github.com/harsha-1706/E-Ticketing-Platform/tree/main/Images
+
 
 # 🎟️ E-Ticketing Platform
 
 A modern web-based **E-Ticketing Platform** that allows users to search for available tickets, select seats, enter passenger details, make payments, and receive digital e-tickets.
 
 The project is designed to simplify the traditional ticket-booking process by providing a convenient, fast, and user-friendly online platform.
+
+---
+<img src="Images/img_1.png" alt="E-Ticketing Platform" width="800">
+<img src="Images/img_2.png" alt="E-Ticketing Platform" width="800">
+<img src="Images/img_3.png" alt="E-Ticketing Platform" width="800">
+<img src="Images/img_4.png" alt="E-Ticketing Platform" width="800">
+<img src="Images/img_5.png" alt="E-Ticketing Platform" width="800">
 
 ---
 
