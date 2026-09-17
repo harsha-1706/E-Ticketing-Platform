@@ -1,3 +1,5 @@
+https://github.com/harsha-1706/E-Ticketing-Platform/tree/main/Images
+
 # 🎟️ E-Ticketing Platform
 
 A modern web-based **E-Ticketing Platform** that allows users to search for available tickets, select seats, enter passenger details, make payments, and receive digital e-tickets.
@@ -77,15 +79,4 @@ Payment
 Booking Confirmation
    ↓
 E-Ticket
-
-<img width="598" height="1600" alt="screen" src="https://github.com/user-attachments/assets/78cd1aa8-1f21-4c6a-a6c6-06234ea75b5b" />
-
-<img width="1129" height="1600" alt="screen2" src="https://github.com/user-attachments/assets/81cd2027-537e-4ea7-9d6d-1184b7b87e7e" />
-
-<img width="1299" height="1600" alt="3" src="https://github.com/user-attachments/assets/eb93b7c8-411d-421f-89c3-fd1f7525512a" />
-
-<img width="1168" height="1600" alt="screen4" src="https://github.com/user-attachments/assets/3e7e9866-03a1-4e5e-aad0-964f17875170" />
-
-<img width="869" height="1600" alt="5" src="https://github.com/user-attachments/assets/488c5b0d-425c-442f-afb9-147532b6f008" />
-
 
