@@ -1,0 +1,6 @@
+{
+  "name": "E-Ticket Platform",
+  "description": "High-frequency transit and multi-modal reservation infrastructure for intercity buses, express rails, flights, and campus events with interactive cabin deck and official transit passes.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
