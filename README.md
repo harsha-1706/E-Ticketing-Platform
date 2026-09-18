@@ -8,6 +8,8 @@ The project is designed to simplify the traditional ticket-booking process by pr
 
 ---
 <img src="Images/img_1.png" alt="E-Ticketing Platform" width="800">
+
+
 <img src="Images/img_2.png" alt="E-Ticketing Platform" width="800">
 <img src="Images/img_3.png" alt="E-Ticketing Platform" width="800">
 <img src="Images/img_4.png" alt="E-Ticketing Platform" width="800">
